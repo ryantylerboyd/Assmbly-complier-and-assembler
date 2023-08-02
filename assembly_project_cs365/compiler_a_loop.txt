@@ -1,0 +1,369 @@
+[SYSTEM] CURRENT LINE READ 0
+LOCO
+[SYSTEM] ac:=x(0<=x<=4095)
+[SYSTEM] 1
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[system] sp:0 ac:1 mx:0 pc:0
+
+[SYSTEM] CURRENT LINE READ 1
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 1
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[system] sp:0 ac:1 mx:0 pc:1
+
+[SYSTEM] CURRENT LINE READ 2
+LOCO
+[SYSTEM] ac:=x(0<=x<=4095)
+[SYSTEM] 6
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[system] sp:0 ac:6 mx:0 pc:2
+
+[SYSTEM] CURRENT LINE READ 3
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 6
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[system] sp:0 ac:6 mx:0 pc:3
+
+[SYSTEM] CURRENT LINE READ 4
+LOCO
+[SYSTEM] ac:=x(0<=x<=4095)
+[SYSTEM] 1
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[system] sp:0 ac:1 mx:0 pc:4
+
+[SYSTEM] CURRENT LINE READ 5
+PUSH
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+[system] sp:-1 ac:1 mx:0 pc:5
+
+[SYSTEM] CURRENT LINE READ 6
+LOCO
+[SYSTEM] ac:=x(0<=x<=4095)
+[SYSTEM] 2
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+[system] sp:-1 ac:2 mx:0 pc:6
+
+[SYSTEM] CURRENT LINE READ 7
+PUSH
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1]
+[system] sp:-2 ac:2 mx:0 pc:7
+
+[SYSTEM] CURRENT LINE READ 8
+LOCO
+[SYSTEM] ac:=x(0<=x<=4095)
+[SYSTEM] 3
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1]
+[system] sp:-2 ac:3 mx:0 pc:8
+
+[SYSTEM] CURRENT LINE READ 9
+PUSH
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 1]
+[system] sp:-3 ac:3 mx:0 pc:9
+
+[SYSTEM] CURRENT LINE READ 10
+LOCO
+[SYSTEM] ac:=x(0<=x<=4095)
+[SYSTEM] 4
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 1]
+[system] sp:-3 ac:4 mx:0 pc:10
+
+[SYSTEM] CURRENT LINE READ 11
+PUSH
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 2, 1]
+[system] sp:-4 ac:4 mx:0 pc:11
+
+[SYSTEM] CURRENT LINE READ 12
+LOCO
+[SYSTEM] ac:=x(0<=x<=4095)
+[SYSTEM] 5
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 2, 1]
+[system] sp:-4 ac:5 mx:0 pc:12
+
+[SYSTEM] CURRENT LINE READ 13
+PUSH
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-5 ac:5 mx:0 pc:13
+
+[SYSTEM] CURRENT LINE READ 14
+LODD
+[SYSTEM] ac:=m[x]
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-5 ac:6 mx:0 pc:14
+
+[SYSTEM] CURRENT LINE READ 15
+SUBD
+[SYSTEM] ac:=ac-m[x]
+[SYSTEM] 5
+[1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-5 ac:5 mx:0 pc:15
+
+[SYSTEM] CURRENT LINE READ 16
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 5
+[1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-5 ac:5 mx:0 pc:16
+
+[SYSTEM] CURRENT LINE READ 17
+JZER
+[SYSTEM] 17
+[1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-5 ac:5 mx:0 pc:17
+
+[SYSTEM] CURRENT LINE READ 18
+POP
+[1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-4 ac:5 mx:0 pc:18
+
+[SYSTEM] CURRENT LINE READ 19
+ADDD
+[SYSTEM] ac:=ac+m[x]
+[SYSTEM] 5
+[1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-4 ac:5 mx:0 pc:19
+
+[SYSTEM] CURRENT LINE READ 20
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 5
+[1, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-4 ac:5 mx:0 pc:20
+
+[SYSTEM] CURRENT LINE READ 21
+JUMP
+[SYSTEM] 13
+[1, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-4 ac:5 mx:0 pc:13
+
+[SYSTEM] CURRENT LINE READ 14
+LODD
+[SYSTEM] ac:=m[x]
+[1, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-4 ac:5 mx:0 pc:14
+
+[SYSTEM] CURRENT LINE READ 15
+SUBD
+[SYSTEM] ac:=ac-m[x]
+[SYSTEM] 4
+[1, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-4 ac:4 mx:0 pc:15
+
+[SYSTEM] CURRENT LINE READ 16
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 4
+[1, 4, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-4 ac:4 mx:0 pc:16
+
+[SYSTEM] CURRENT LINE READ 17
+JZER
+[SYSTEM] 17
+[1, 4, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-4 ac:4 mx:0 pc:17
+
+[SYSTEM] CURRENT LINE READ 18
+POP
+[1, 4, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-3 ac:4 mx:0 pc:18
+
+[SYSTEM] CURRENT LINE READ 19
+ADDD
+[SYSTEM] ac:=ac+m[x]
+[SYSTEM] 9
+[1, 4, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-3 ac:9 mx:0 pc:19
+
+[SYSTEM] CURRENT LINE READ 20
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 9
+[1, 4, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-3 ac:9 mx:0 pc:20
+
+[SYSTEM] CURRENT LINE READ 21
+JUMP
+[SYSTEM] 13
+[1, 4, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-3 ac:9 mx:0 pc:13
+
+[SYSTEM] CURRENT LINE READ 14
+LODD
+[SYSTEM] ac:=m[x]
+[1, 4, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-3 ac:4 mx:0 pc:14
+
+[SYSTEM] CURRENT LINE READ 15
+SUBD
+[SYSTEM] ac:=ac-m[x]
+[SYSTEM] 3
+[1, 4, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-3 ac:3 mx:0 pc:15
+
+[SYSTEM] CURRENT LINE READ 16
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 3
+[1, 3, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-3 ac:3 mx:0 pc:16
+
+[SYSTEM] CURRENT LINE READ 17
+JZER
+[SYSTEM] 17
+[1, 3, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-3 ac:3 mx:0 pc:17
+
+[SYSTEM] CURRENT LINE READ 18
+POP
+[1, 3, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-2 ac:3 mx:0 pc:18
+
+[SYSTEM] CURRENT LINE READ 19
+ADDD
+[SYSTEM] ac:=ac+m[x]
+[SYSTEM] 12
+[1, 3, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-2 ac:12 mx:0 pc:19
+
+[SYSTEM] CURRENT LINE READ 20
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 12
+[1, 3, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-2 ac:12 mx:0 pc:20
+
+[SYSTEM] CURRENT LINE READ 21
+JUMP
+[SYSTEM] 13
+[1, 3, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-2 ac:12 mx:0 pc:13
+
+[SYSTEM] CURRENT LINE READ 14
+LODD
+[SYSTEM] ac:=m[x]
+[1, 3, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-2 ac:3 mx:0 pc:14
+
+[SYSTEM] CURRENT LINE READ 15
+SUBD
+[SYSTEM] ac:=ac-m[x]
+[SYSTEM] 2
+[1, 3, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-2 ac:2 mx:0 pc:15
+
+[SYSTEM] CURRENT LINE READ 16
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 2
+[1, 2, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-2 ac:2 mx:0 pc:16
+
+[SYSTEM] CURRENT LINE READ 17
+JZER
+[SYSTEM] 17
+[1, 2, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-2 ac:2 mx:0 pc:17
+
+[SYSTEM] CURRENT LINE READ 18
+POP
+[1, 2, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-1 ac:2 mx:0 pc:18
+
+[SYSTEM] CURRENT LINE READ 19
+ADDD
+[SYSTEM] ac:=ac+m[x]
+[SYSTEM] 14
+[1, 2, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-1 ac:14 mx:0 pc:19
+
+[SYSTEM] CURRENT LINE READ 20
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 14
+[1, 2, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-1 ac:14 mx:0 pc:20
+
+[SYSTEM] CURRENT LINE READ 21
+JUMP
+[SYSTEM] 13
+[1, 2, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-1 ac:14 mx:0 pc:13
+
+[SYSTEM] CURRENT LINE READ 14
+LODD
+[SYSTEM] ac:=m[x]
+[1, 2, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-1 ac:2 mx:0 pc:14
+
+[SYSTEM] CURRENT LINE READ 15
+SUBD
+[SYSTEM] ac:=ac-m[x]
+[SYSTEM] 1
+[1, 2, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-1 ac:1 mx:0 pc:15
+
+[SYSTEM] CURRENT LINE READ 16
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 1
+[1, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-1 ac:1 mx:0 pc:16
+
+[SYSTEM] CURRENT LINE READ 17
+JZER
+[SYSTEM] 17
+[1, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:-1 ac:1 mx:0 pc:17
+
+[SYSTEM] CURRENT LINE READ 18
+POP
+[1, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:0 ac:1 mx:0 pc:18
+
+[SYSTEM] CURRENT LINE READ 19
+ADDD
+[SYSTEM] ac:=ac+m[x]
+[SYSTEM] 15
+[1, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:0 ac:15 mx:0 pc:19
+
+[SYSTEM] CURRENT LINE READ 20
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 15
+[1, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:0 ac:15 mx:0 pc:20
+
+[SYSTEM] CURRENT LINE READ 21
+JUMP
+[SYSTEM] 13
+[1, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:0 ac:15 mx:0 pc:13
+
+[SYSTEM] CURRENT LINE READ 14
+LODD
+[SYSTEM] ac:=m[x]
+[1, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:0 ac:1 mx:0 pc:14
+
+[SYSTEM] CURRENT LINE READ 15
+SUBD
+[SYSTEM] ac:=ac-m[x]
+[SYSTEM] 0
+[1, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:0 ac:0 mx:0 pc:15
+
+[SYSTEM] CURRENT LINE READ 16
+STOD
+[SYSTEM] m[x]:=ac
+[SYSTEM] 0
+[1, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:0 ac:0 mx:0 pc:16
+
+[SYSTEM] CURRENT LINE READ 17
+JZER
+[SYSTEM] 24
+[1, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
+[system] sp:0 ac:0 mx:0 pc:24
+[1, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 3, 2, 1]
